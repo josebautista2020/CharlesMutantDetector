@@ -1,0 +1,8 @@
+/target/
+.gradle/
+bin/
+build/
+coverage/
+logging.log
+src/main/resources/static/javadoc/
+test-logging.log
