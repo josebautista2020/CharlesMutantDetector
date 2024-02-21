@@ -1,3 +1,4 @@
+# Profesor Charles
 # mutantDetector
 Restful API que identifica, dada una cadena de ADN, si esta es mutante o humana
 
@@ -14,7 +15,7 @@ String[] dna = {"ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"};
 
 ## Tecnologías
 
-* Java 8
+* Java 21
 * Maven - Administración y distribución del proyecto
 * Jersey - Api Restful
 * HK2 - Inyección de dependencias
@@ -46,8 +47,8 @@ Para correr el proyecto localmente es necesario clonar el proyecto y seguir las 
 
 Antes de empezar es necesario tener instalado:
 
--JDK 1.8 con la variable de entorno JAVA_HOME configurada correctamente
--Maven 3
+-JDK 21.0.1 con la variable de entorno JAVA_HOME configurada correctamente
+-Maven 3.9.6
 
 Una vez que todo esté instalado es momento de preparar la aplicación
 
@@ -103,5 +104,5 @@ Por default genera war, por lo tanto solo se necesita ejecutar:
 
 ## Autor
 
-* **Hernán Adriel Escola** - [HernanEscola](https://github.com/HernanEscola)
+* **Jose Bautista**
 
