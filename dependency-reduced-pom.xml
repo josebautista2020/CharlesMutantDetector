@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>orf.magneto.magnetoFTW</groupId>
-  <artifactId>Magneto</artifactId>
+  <groupId>orf.charles.charlesFTW</groupId>
+  <artifactId>Charles</artifactId>
   <name>DNAScanner</name>
   <version>1.1</version>
   <description>Generate Swagger UI through Grizzly Jersey</description>
@@ -28,7 +28,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>org.magneto.magnetoFTW.MainApp</mainClass>
+                  <mainClass>org.charles.charlesFTW.MainApp</mainClass>
                 </transformer>
               </transformers>
               <filters>
@@ -79,9 +79,9 @@
                   <goal>test</goal>
                 </goals>
                 <configuration>
-                  <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/site</outputDirectory>
+                  <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/site</outputDirectory>
                   <reportsDirectories>
-                    <reportsDirectories>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/surefire-reports</reportsDirectories>
+                    <reportsDirectories>/Users/aion/Documents/workspace-java/charlesFTW2/target/surefire-reports</reportsDirectories>
                   </reportsDirectories>
                   <testFailureIgnore>true</testFailureIgnore>
                   <additionalClasspathElements>
@@ -92,9 +92,9 @@
               </execution>
             </executions>
             <configuration>
-              <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/site</outputDirectory>
+              <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/site</outputDirectory>
               <reportsDirectories>
-                <reportsDirectories>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/surefire-reports</reportsDirectories>
+                <reportsDirectories>/Users/aion/Documents/workspace-java/charlesFTW2/target/surefire-reports</reportsDirectories>
               </reportsDirectories>
               <testFailureIgnore>true</testFailureIgnore>
               <additionalClasspathElements>
@@ -140,7 +140,7 @@
                   <goal>site</goal>
                 </goals>
                 <configuration>
-                  <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/site</outputDirectory>
+                  <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/site</outputDirectory>
                   <reportPlugins>
                     <reportPlugin>
                       <groupId>org.apache.maven.plugins</groupId>
@@ -152,7 +152,7 @@
                       <artifactId>maven-surefire-report-plugin</artifactId>
                       <version>2.1</version>
                       <configuration>
-                        <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/surfire-report</outputDirectory>
+                        <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/surfire-report</outputDirectory>
                       </configuration>
                     </reportPlugin>
                     <reportPlugin>
@@ -160,7 +160,7 @@
                       <artifactId>maven-site-plugin</artifactId>
                       <version>2.1</version>
                       <configuration>
-                        <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/surfire-report</outputDirectory>
+                        <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/surfire-report</outputDirectory>
                       </configuration>
                     </reportPlugin>
                   </reportPlugins>
@@ -173,7 +173,7 @@
                   <goal>deploy</goal>
                 </goals>
                 <configuration>
-                  <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/site</outputDirectory>
+                  <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/site</outputDirectory>
                   <reportPlugins>
                     <reportPlugin>
                       <groupId>org.apache.maven.plugins</groupId>
@@ -185,7 +185,7 @@
                       <artifactId>maven-surefire-report-plugin</artifactId>
                       <version>2.1</version>
                       <configuration>
-                        <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/surfire-report</outputDirectory>
+                        <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/surfire-report</outputDirectory>
                       </configuration>
                     </reportPlugin>
                     <reportPlugin>
@@ -193,7 +193,7 @@
                       <artifactId>maven-site-plugin</artifactId>
                       <version>2.1</version>
                       <configuration>
-                        <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/surfire-report</outputDirectory>
+                        <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/surfire-report</outputDirectory>
                       </configuration>
                     </reportPlugin>
                   </reportPlugins>
@@ -205,7 +205,7 @@
                   <goal>site</goal>
                 </goals>
                 <configuration>
-                  <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/site</outputDirectory>
+                  <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/site</outputDirectory>
                   <reportPlugins>
                     <reportPlugin>
                       <groupId>org.apache.maven.plugins</groupId>
@@ -217,7 +217,7 @@
                       <artifactId>maven-surefire-report-plugin</artifactId>
                       <version>2.1</version>
                       <configuration>
-                        <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/surfire-report</outputDirectory>
+                        <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/surfire-report</outputDirectory>
                       </configuration>
                     </reportPlugin>
                     <reportPlugin>
@@ -225,7 +225,7 @@
                       <artifactId>maven-site-plugin</artifactId>
                       <version>2.1</version>
                       <configuration>
-                        <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/surfire-report</outputDirectory>
+                        <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/surfire-report</outputDirectory>
                       </configuration>
                     </reportPlugin>
                   </reportPlugins>
@@ -233,7 +233,7 @@
               </execution>
             </executions>
             <configuration>
-              <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/site</outputDirectory>
+              <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/site</outputDirectory>
               <reportPlugins>
                 <reportPlugin>
                   <groupId>org.apache.maven.plugins</groupId>
@@ -245,7 +245,7 @@
                   <artifactId>maven-surefire-report-plugin</artifactId>
                   <version>2.1</version>
                   <configuration>
-                    <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/surfire-report</outputDirectory>
+                    <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/surfire-report</outputDirectory>
                   </configuration>
                 </reportPlugin>
                 <reportPlugin>
@@ -253,7 +253,7 @@
                   <artifactId>maven-site-plugin</artifactId>
                   <version>2.1</version>
                   <configuration>
-                    <outputDirectory>/Users/aion/Documents/workspace-java/MagnetoFTW2/target/surfire-report</outputDirectory>
+                    <outputDirectory>/Users/aion/Documents/workspace-java/charlesFTW2/target/surfire-report</outputDirectory>
                   </configuration>
                 </reportPlugin>
               </reportPlugins>
