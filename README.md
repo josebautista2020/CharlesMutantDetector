@@ -25,7 +25,7 @@ String[] dna = {"ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"};
 * JUnit5 - Test
 * Jacoco - Reporte de cobertura de tests
 * Jedis - Cliente Redis
-* Amazon EC2 y ElasticCache - Host de la API en Tomcat 8 y Redis para base de datos
+* Amazon EC2 y ElasticCache - Host de la API en Tomcat 11 y Redis para base de datos
 * IDE Utilizada - Eclipse
 
 
