@@ -34,6 +34,7 @@ String[] dna = {"ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"};
 Se puede ver la aplicación alojada en un server utilizando AWS EC2 en:
 
 Swagger:
+http://charlesmutantdetector.us-east-1.elasticbeanstalk.com/
 http://ec2-52-67-163-113.sa-east-1.compute.amazonaws.com:8080/mutantDetector/docs/
 
 Api:
